@@ -1,5 +1,11 @@
+/*
+
+columbia blue (background)
+
+*/
+
 :root {
-  --background: rgb(182, 196, 235);
+  --background: rgb(155, 221, 255); 
   --foreground: rgb(160, 179, 229);
 }
 
