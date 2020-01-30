@@ -9,6 +9,18 @@ columbia blue (background)
   --foreground: rgb(160, 179, 229);
 }
 
+.footer-1 {
+  background-color: rgb(155, 221, 255);
+  border-top: 6px solid rgb(150, 211, 255);
+  padding: 25px 0 25px 0;
+}
+
+.footer-2 {
+  background-color: rgb(145, 201, 255);
+  border-top: 6px solid rgb(140, 191, 255);
+  padding: 25px 0 25px 0;
+}
+
 .App {
   text-align: center;
 }
