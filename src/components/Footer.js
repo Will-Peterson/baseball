@@ -10,6 +10,7 @@ function Footer() {
                 Facebook / Twitter / YouTube
             </div>
             <div className='footer-2'>
+                <div>Terms of Service | Privacy Policy | Contact</div>
                 &copy; {new Date().getFullYear()} Prove It Athletics
             </div>
 
