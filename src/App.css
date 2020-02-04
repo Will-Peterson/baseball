@@ -1,6 +1,6 @@
 /*
 
-columbia blue (background)
+columbia blue (background) - 155, 221, 255
 
 */
 
@@ -13,6 +13,8 @@ img {
 :root {
   --background: rgb(155, 221, 255); 
   --foreground: rgb(160, 179, 229);
+  --footerBackground: #343a40;
+  --footerFont: #fff;
 }
 
 .footer-1 {

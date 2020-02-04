@@ -1,21 +1,33 @@
 import React from 'react';
 import '../App.css' 
-import CssBaseline from '@material-ui/core/CssBaseline';
+import Styled from 'styled-components';
 
 function Footer() {
     return (
-        <>
-            <CssBaseline />
-            <div className='footer-1'>
+        <FooterContainer>
+            
+            <div className='footer-middle'>
                 Facebook / Twitter / YouTube
-            </div>
-            <div className='footer-2'>
-                <div>Terms of Service | Privacy Policy | Contact</div>
-                &copy; {new Date().getFullYear()} Prove It Athletics
+                <div className='footer-bottom'>
+                    Terms of Service | Privacy Policy | Contact
+                    <div>&copy; {new Date().getFullYear()} Prove It Athletics</div>
+                </div>
             </div>
 
-        </>
+        </FooterContainer>
     );
 }
 
 export default Footer;
+
+const FooterContainer = Styled.footer`
+    .footer-middle {
+        background: var(--footerBackground);
+        color: var(--footerFont);
+        padding-top: 3rem;
+    }
+    .footer-bottom {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+`;

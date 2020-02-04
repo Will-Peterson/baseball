@@ -4,8 +4,6 @@ import Footer from './components/Footer';
 import MyLogoWhatever from './images/pic1.jpg';
 import './App.css';
 
-// import Button from '@material-ui/core/Button
-
 function App() {
   return (
     <div className="App">
