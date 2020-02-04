@@ -4,6 +4,12 @@ columbia blue (background) - 155, 221, 255
 
 */
 
+img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
 :root {
   --background: rgb(155, 221, 255); 
   --foreground: rgb(160, 179, 229);
